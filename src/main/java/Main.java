@@ -4,8 +4,8 @@ public class Main {
 
     long amount = 1000_60;
     boolean registered = true;
-    System.out.println( service.calculate(amount, registered));
-   //service.calculate(amount, registered);
+
+   service.calculate(amount, registered);
   }
 }
 
